@@ -18,4 +18,14 @@ public class menu extends AppCompatActivity {
         Intent miIntent=new Intent(menu.this,informacionUsuario.class );
         startActivity(miIntent);
     }
+    public void  informacionHistorial(View view)
+    {
+        Intent miIntent=new Intent(menu.this,historial.class );
+        startActivity(miIntent);
+    }
+    public void  informacionUbicacion(View view)
+    {
+        Intent miIntent=new Intent(menu.this,ubicacion.class );
+        startActivity(miIntent);
+    }
 }

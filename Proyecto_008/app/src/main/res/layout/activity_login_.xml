@@ -35,8 +35,8 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="209dp"
-        android:layout_height="82dp"
+        android:layout_width="182dp"
+        android:layout_height="70dp"
         android:backgroundTint="#3A5EA5"
         android:onClick="onClick"
         android:text="Siguiente"
@@ -45,9 +45,28 @@
         app:cornerRadius="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.435"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password"
-        app:layout_constraintVertical_bias="0.728" />
+        app:layout_constraintVertical_bias="0.652" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="319dp"
+        android:layout_height="50dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="enviarRegistro"
+        android:text="Registrar ahora"
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.326"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        app:layout_constraintVertical_bias="0.948" />
 
     <TextView
         android:id="@+id/textView8"

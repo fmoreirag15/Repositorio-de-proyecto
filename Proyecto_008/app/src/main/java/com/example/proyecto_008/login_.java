@@ -18,4 +18,9 @@ public class login_ extends AppCompatActivity {
         Intent miIntent=new Intent(login_.this,menu.class );
         startActivity(miIntent);
     }
+    public void  enviarRegistro(View view)
+    {
+        Intent miIntent=new Intent(login_.this,formlario_registro.class );
+        startActivity(miIntent);
+    }
 }

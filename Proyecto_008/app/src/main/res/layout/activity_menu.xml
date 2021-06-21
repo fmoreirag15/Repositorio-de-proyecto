@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".menu">
 
     <Button
@@ -31,6 +32,7 @@
         android:layout_marginBottom="40dp"
         android:background="#00FFFFFF"
         android:backgroundTint="#00FFFFFF"
+        android:onClick="informacionUbicacion"
         android:text="Ubicación"
         android:textAlignment="center"
         android:textColor="#4A4747"
@@ -52,6 +54,7 @@
         android:layout_marginBottom="40dp"
         android:background="#00FFFFFF"
         android:backgroundTint="#00FFFFFF"
+        android:onClick="informacionHistorial"
         android:text="Historial"
         android:textAlignment="center"
         android:textColor="#4A4747"

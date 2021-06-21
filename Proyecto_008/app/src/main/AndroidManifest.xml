@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto_008">
-        <activity android:name=".informacionUsuario"></activity>
+        <activity android:name=".ubicacion"></activity>
+        <activity android:name=".historial" />
+        <activity android:name=".formlario_registro" />
+        <activity android:name=".informacionUsuario" />
         <activity android:name=".menu" />
         <activity android:name=".login_" />
         <activity
