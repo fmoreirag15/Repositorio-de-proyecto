@@ -7,65 +7,6 @@
     android:background="#FFFFFF"
     tools:context=".menu">
 
-    <Button
-        android:id="@+id/button6"
-        android:layout_width="208dp"
-        android:layout_height="101dp"
-        android:layout_marginBottom="24dp"
-        android:background="#00FFFFFF"
-        android:backgroundTint="#00FFFFFF"
-        android:text="Reconocimiento"
-        android:textColor="#4A4747"
-        app:icon="@mipmap/icons8_camera_100px"
-        app:iconGravity="top"
-        app:iconTint="#DD3E56E4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="137dp"
-        android:layout_height="116dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginBottom="40dp"
-        android:background="#00FFFFFF"
-        android:backgroundTint="#00FFFFFF"
-        android:onClick="informacionUbicacion"
-        android:text="Ubicación"
-        android:textAlignment="center"
-        android:textColor="#4A4747"
-        app:cornerRadius="10dp"
-        app:icon="@mipmap/icons8_disabled_access_50px_1"
-        app:iconGravity="top"
-        app:iconSize="70dp"
-        app:iconTint="#DD3E56E4"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
-        app:layout_constraintHorizontal_bias="0.112"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="137dp"
-        android:layout_height="116dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginBottom="40dp"
-        android:background="#00FFFFFF"
-        android:backgroundTint="#00FFFFFF"
-        android:onClick="informacionHistorial"
-        android:text="Historial"
-        android:textAlignment="center"
-        android:textColor="#4A4747"
-        app:cornerRadius="10dp"
-        app:icon="@mipmap/icons8_messages_100px"
-        app:iconGravity="top"
-        app:iconSize="70dp"
-        app:iconTint="#DD3E56E4"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
-        app:layout_constraintEnd_toEndOf="parent" />
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="454dp"
@@ -76,6 +17,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/sasa" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="110dp"
+        android:layout_height="93dp"
+        android:layout_marginTop="28dp"
+        android:background="#7C8DA6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/icons8_glasses_100px" />
 
     <Button
         android:id="@+id/button4"
@@ -94,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
-        android:text="Bienvenido a Yanapanaku"
+        android:text="Bienvenido a Ñawi"
         android:textColor="#0C0A0A"
         android:textSize="28sp"
         android:textStyle="bold"
@@ -120,43 +73,73 @@
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="304dp"
+        android:layout_marginTop="320dp"
         android:text="Servicios"
         android:textColor="#3D3D3E"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintHorizontal_bias="0.118"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <Button
-        android:id="@+id/button10"
-        android:layout_width="110dp"
-        android:layout_height="100dp"
-        android:layout_marginTop="40dp"
-        android:backgroundTint="#4CAF50"
-        android:text="Paciente"
-        android:textColor="#FBFBFB"
+        android:id="@+id/button3"
+        android:layout_width="136dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="20dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="informacionUbicacion"
+        android:text="Ubicación"
+        android:textAlignment="center"
+        android:textColor="#4A4747"
         app:cornerRadius="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        app:icon="@mipmap/icons8_disabled_access_50px_1"
+        app:iconGravity="top"
+        app:iconSize="70dp"
+        app:iconTint="#DD3E56E4"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button7"
-        android:layout_width="110dp"
-        android:layout_height="100dp"
-        android:backgroundTint="#FF9800"
-        android:text="Alertas"
-        android:textColor="#FBFBFB"
-        app:cornerRadius="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        android:id="@+id/button6"
+        android:layout_width="185dp"
+        android:layout_height="97dp"
+        android:layout_marginBottom="32dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Reconocimiento"
+        android:textColor="#4A4747"
+        app:icon="@mipmap/icons8_camera_100px"
+        app:iconGravity="top"
+        app:iconTint="#DD3E56E4"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.953"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10"
-        app:layout_constraintVertical_bias="0.506" />
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="131dp"
+        android:layout_height="119dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="24dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:onClick="informacionHistorial"
+        android:text="Historial"
+        android:textAlignment="center"
+        android:textColor="#4A4747"
+        app:cornerRadius="10dp"
+        app:icon="@mipmap/icons8_messages_100px"
+        app:iconGravity="top"
+        app:iconSize="70dp"
+        app:iconTint="#DD3E56E4"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/button11"
@@ -168,10 +151,39 @@
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toTopOf="@+id/textView11"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10"
-        app:layout_constraintVertical_bias="0.493" />
+        app:layout_constraintVertical_bias="0.341" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:backgroundTint="#FF9800"
+        android:text="Alertas"
+        android:textColor="#FBFBFB"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.943"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.352" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Paciente"
+        android:textColor="#FBFBFB"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.036"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <Button
         android:id="@+id/button9"
@@ -184,5 +196,16 @@
         android:text="Usuario"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="226dp"
+        android:layout_height="47dp"
+        android:backgroundTint="#BF4A42"
+        android:text="Comprobar conexión"
+        app:cornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
